@@ -10,6 +10,6 @@ Você pode obter mais informações sobre este projeto em https://github.com/nol
 
 ### Demonstração ###
 
-![](https://raw.githubusercontent.com/hoang8f/android-flat-button/master/screenshot/screenshot.gif)
+![](https://raw.githubusercontent.com/falleco/phonegap-slide-screens/master/screenshots/screen-slide.gif)
 
-Você pode ver este exemplo funcionando diretamente aqui
+Você pode ver este exemplo funcionando diretamente http://falleco.github.io/phonegap-slide-screens
