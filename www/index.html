@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/idangerous.swiper.css"/>
+    <link rel="stylesheet" type="text/css" href="http://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css"/>
+
+
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <meta name="msapplication-tap-highlight" content="no"/>
+    <title>Phonegap/Html Finger Sliding Screens</title>
+</head>
+<body>
+<div class="app">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <!-- XXXXXXXXXXXXXXXXXXXXXXXXX LEFT PAGE XXXXXXXXXXXXXXXXXXXXXXXXXX -->
+            <div id="left-page" class="swiper-slide">
+                <div data-role="header" data-id="header" data-theme="b">
+                    <a href="#" data-icon="home" data-iconpos="notext" class="ui-btn-right slide-to-right">Home</a>
+
+                    <h1>Search Screen</h1>
+                </div>
+
+                <div class="content" data-role="content">
+                    <i class="fa fa-cog fa-arrow-circle-right large-icon"></i>
+                    <span>Slide Right</span>
+                </div>
+            </div>
+
+            <!-- XXXXXXXXXXXXXXXXXXXXXXXXXX CENTER PAGE XXXXXXXXXXXXXXXXXXXXXXXXXX -->
+            <div id="center-page" class="swiper-slide">
+                <div data-role="header" data-id="header" data-theme="b">
+                    <h1>Home Screen</h1>
+                    <a href="#" data-icon="search" data-iconpos="notext" class="slide-to-left">Search</a>
+                    <a href="#" data-icon="user" data-iconpos="notext" class="slide-to-right">Profile</a>
+                </div>
+
+                <div class="content" data-role="content" role="main">
+                    <i class="fa fa-heart large-icon red"></i>
+                    <span>Slide to each direction</span>
+                </div>
+            </div>
+
+            <!-- XXXXXXXXXXXXXXXXXXXXXXXX RIGHT PAGE XXXXXXXXXXXXXXXXXXXXXXXXX -->
+            <div id="right-page" class="swiper-slide">
+                <div data-role="header" data-id="header" data-theme="b">
+                    <h1>Profile Screen</h1>
+                    <a href="#" data-icon="home" data-iconpos="notext" class="slide-to-left">Home</a>
+                </div>
+
+                <div class="content" data-role="content">
+                    <i class="fa fa-cog fa-arrow-circle-left large-icon"></i>
+                    <span>Slide Left</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="cordova.js"></script>
+
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+
+<script type="text/javascript" src="js/idangerous.swiper.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+<script type="text/javascript">
+    app.initialize();
+</script>
+</body>
+</html>

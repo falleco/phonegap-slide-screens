@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.duplipensamento.slide" version="0.0.1" xmlns="http://www.w3.org/ns/widgets">
+    <name>SlideScreens</name>
+    <description>
+        A sample phonegap/html5 application with screen sliding feature using iSwiper
+    </description>
+    <author email="israel.crisanto@gmail.com" href="http://duplipensamento.com">
+        Israel Crisanto
+    </author>
+    <content src="index.html"/>
+    <access origin="*"/>
+</widget>
